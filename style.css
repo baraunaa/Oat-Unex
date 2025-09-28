@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #222; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 1.5em;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px; 
+}
+
+#btnCalcular {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: background-color 0.3s;
+}
+
+#btnCalcular:hover {
+    background-color: #45a049;
+}
+
+.resultado-box {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #4CAF50; 
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    line-height: 1.5;
+}
+
+.resultado-box p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.valor {
+    font-weight: bold;
+    color: #FFD700; 
+}
+
+.desconto {
+    color: #FF5555; 
+}
+
+.liquido {
+    color: #4CAF50; 
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #555;
+}
+
+.footer {
+    font-size: 0.7em;
+    color: #888;
+    margin-top: 20px;
+}
